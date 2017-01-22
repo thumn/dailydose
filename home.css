@@ -1,0 +1,84 @@
+html {
+
+}
+
+h1 {
+  font-family: 'Didact Gothic', sans-serif;
+  font-size: 60px;
+  text-align: center;
+  font-weight: bolder;
+}
+
+h2 {
+  font-family: 'Didact Gothic', sans-serif;
+  font-size: 48px;
+  text-align: center;
+  font-weight: bolder;
+}
+
+td {
+  width: 200px;
+}
+
+.buttonbar {
+  background-color: aquamarine;
+  width: 100%;
+  text-align: center;
+}
+
+.button {
+  font-family: 'Didact Gothic', sans-serif;
+  font-size: 16px;
+  text-align: center;
+  color: black;
+  background-color: aquamarine;
+  border: none;
+  font-weight: bolder;
+  display: inline-block;
+}
+
+.goals {
+  font-family: 'Didact Gothic', sans-serif;
+  font-size: 40px;
+  font-weight: bolder;
+}
+
+#username {
+  font-size: 30px;
+  margin-bottom: 0;
+  margin-top: 10%;
+}
+
+#logintext {
+  width: 274px;
+  height: 30px;
+  margin-left: 40%;
+  text-align: center;
+  font-family: 'Didact Gothic', sans-serif;
+  font-size: 25px;
+}
+
+#loginbutton {
+  background-color: aquamarine;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 30px;
+  width: 280px;
+  font-family: 'Didact Gothic', sans-serif;
+  transition-duration: 0.4s;
+  margin-left: 40%;
+  align-items: center;
+  justify-content: center;
+}
+
+#newgoalinput {
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  font-family: 'Didact Gothic', sans-serif;
+  font-size: 25px;
+}

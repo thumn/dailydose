@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta charset="utf-8">
+    <meta charset="utf-8">
+    <script src="file:///Users/thunguyen/Desktop/Daily%20Dose/js/newgoal.js"></script>
+    <link rel="stylesheet" href="file:///Users/thunguyen/Desktop/Daily%20Dose/stylesheets/home.css">
+    <link href="https://fonts.googleapis.com/css?family=Didact+Gothic|Francois+One" rel="stylesheet">
+
+    <title>New Goal</title>
+  </head>
+  <body>
+    <h1 class="title">DAILY DOSE</h1>
+
+    <div class="buttonbar">
+      <table border="0">
+      <tr>
+      <td><form method="link" action="file:///Users/thunguyen/Desktop/Daily%20Dose/templates/newgoal.html"><input type = "submit" value="NEW GOAL" class="button"></form></td>
+      <td><form method="link" action="file:///Users/thunguyen/Desktop/Daily%20Dose/templates/motivationalquotes.html"><input type = "submit" value="MOTIVATIONAL QUOTES" class="button"></form></td>
+      <td><form method="link" action="file:///Users/thunguyen/Desktop/Daily%20Dose/templates/recommendations.html"><input type = "submit" value="RECOMMENDATIONS" class="button"></form></td>
+
+      </tr>
+    </table>
+    </div>
+
+    <h2 class="goals">NEW GOAL</h2>
+
+    <table id="newgoalinput">
+      <tr>
+        <td><p>Goal</p></td>
+        <td><input type="text" id="goaltext"></input>
+      </tr>
+      <tr>
+        <td><p>Days of the Week</p></p>
+        <td><form id="daysOfWeek">
+            <input type="checkbox" name="sunday" value="Sunday" class="week">Sunday<br>
+            <input type="checkbox" name="monday" value="Monday" class="week">Monday<br>
+            <input type="checkbox" name="tuesday" value="Tuesday" class="week">Tuesday<br>
+            <input type="checkbox" name="wednesday" value="Wednesday" class="week">Wednesday<br>
+            <input type="checkbox" name="thursday" value="Thursday" class="week">Thursday<br>
+            <input type="checkbox" name="friday" value="Friday" class="week">Friday<br>
+            <input type="checkbox" name="saturday" value="Saturday" class="week">Saturday<br>
+            </form>
+      </tr>
+    </table>
+    <br>
+      <form method="link" ><input type = "submit" value="SUBMIT" class="button" id="loginbutton" onclick="newGoalSubmit();"></form>
+  </body>
+</html>
